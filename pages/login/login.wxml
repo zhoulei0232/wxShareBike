@@ -1,0 +1,20 @@
+<!--pages/login/login.wxml-->
+<view class='container'>
+
+  
+    <view class='wrap'>
+    <block wx:if="{{user.username==''}}">
+    <view class='nologin'><text>未登录</text></view>
+   </block>  
+    <block wx:if="{{user.username !==''}}">
+      <view class='imgwrap'>
+      <image src='{{user.userurl}}'></image>
+      <view class='username'><text>{{user.username}}</text></view> 
+      </view>
+      <view class='userwallet' bindtap='wallet'><text>我的钱包</text><text>></text></view>
+    </block>  
+    </view>
+ 
+
+  <view class='loginbtn' ><button bindtap='loginbtn' type="{{loginbtn.btncolor}}">{{loginbtn.btntext}}</button></view>
+</view>

@@ -1,0 +1,15 @@
+<!--pages/billing/index.wxml-->
+<view class="container">
+  <view class="bikenumber">
+    <text>当前车辆编号：{{bikenumber}}</text>
+  </view>
+  <view class='bikerunmoney'>
+     <view class="title">正在计费</view>
+    <view class='runtime'>{{hours}}:{{minute}}:{{second}}</view>
+  </view>
+  <view class='bikebtn'>
+    <button  type='warn' bindtap='runover' disabled='{{flag}}'>结束骑行</button>
+    <button type='primary' bindtap='tomap'>回到地图</button>
+  </view>
+
+</view>

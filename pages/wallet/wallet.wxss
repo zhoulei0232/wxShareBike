@@ -1,0 +1,47 @@
+/* pages/wallet/wallet.wxss */
+.container{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-color: #eee;
+}
+.balance ,.walletNumber ,.walletExplain{
+  width: 100%;
+  padding-top: 30rpx;
+  background-color: #fff;
+}
+.walletNumber{
+  font-size:100rpx;
+  font-weight:700;
+}
+.walletExplain{
+  font-size: 30rpx;
+   padding-bottom: 30rpx;
+}
+.walletExplain text{
+  padding:0 20rpx ;
+  border: 2rpx solid #aaa;
+  border-radius: 28rpx;
+}
+.recharge{
+  padding: 30rpx;
+}
+.recharge button{
+  width: 100%;
+  background-color: #A3D900;
+}
+.mystyle{
+  padding: 30rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.temp-one{
+  border-bottom: 2rpx solid #ddd;
+}
+.mystyle .textcolor{
+  color: #D9D900;
+}
+.temp-three{
+  margin-top: 50rpx;
+}

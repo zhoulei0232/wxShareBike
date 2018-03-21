@@ -1,0 +1,21 @@
+<!--pages/logs/logs.wxml-->
+<view class='container'>
+  <view class='password-tiltle'>
+    <text>开锁密码</text>
+  </view>
+  <view class='password-content'>
+     <text>{{password[0]}}</text>
+      <text>{{password[1]}}</text>
+     <text>{{password[2]}}</text>
+     <text>{{password[3]}}</text> 
+     
+  </view>
+  <view class='tips'>
+    请使用密码解锁，{{tipsTime}}秒后开始计费，
+    <view class='tips-action'>
+      车辆有问题？
+        <text class='tips-href'>回首页车辆保障</text>
+     </view>
+  </view>
+  
+</view>

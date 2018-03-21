@@ -1,0 +1,6 @@
+<!--pages/recharge/recharge.wxml-->
+<view class='container'>
+    <view class='text'><text>请输入充值金额</text></view>
+    <view class='inp'><input value='{{wallet}}' bindinput='inputcharge' placeholder="请输入充值金额" placeholder-style="font-size:30rpx"></input></view>
+    <view class='btn'><button bindtap='btncharge'>充值</button></view>
+</view>

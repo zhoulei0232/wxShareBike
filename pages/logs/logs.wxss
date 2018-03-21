@@ -1,0 +1,34 @@
+/* pages/logs/logs.wxss */
+.container{
+  font-family: "SimHei";
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: around;
+  justify-content: space-between;
+}
+.password-tiltle{
+  flex-grow: 1;
+  padding: 40rpx 0;
+  font-size: 50rpx;
+}
+.password-content{
+  font-size: 120rpx;
+  flex-grow: 8;
+}
+.password-content text{
+  padding: 10rpx 30rpx;
+  background-color: #000;
+  line-height: 140px;
+  color: #fff;
+  margin:0 5rpx;
+}
+.tips{
+   font-size: 30rpx;
+  flex-grow: 1; 
+}
+.tips .tips-href{
+  color: #d9d088;
+}

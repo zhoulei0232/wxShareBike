@@ -1,0 +1,22 @@
+{
+  "component": true,
+  "usingComponents": {},
+    "pages": [
+      "pages/index/index",
+      "pages/recharge/recharge",
+      "pages/wallet/wallet",
+      "pages/login/login",
+     
+     
+      "pages/warn/warn",
+      "pages/billing/index",
+      "pages/logs/logs"
+     
+    ],
+      "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#FFFF00",
+        "navigationBarTitleText": "共享单车",
+        "navigationBarTextStyle": "black"
+      }
+}

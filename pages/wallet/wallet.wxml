@@ -1,0 +1,11 @@
+<!--pages/wallet/wallet.wxml-->
+<view class='container'>
+  <view class='balance'><text>我的余额(元)</text></view>
+  <view class='walletNumber'>{{wallet}}</view>
+  <view class='walletExplain' bindtap='explain' data-index="0"><text>余额说明</text></view>
+  <view class='recharge'><button bindtap='recharge' >充值</button></view>
+  <view class='mystyle temp-one' bindtap='explain' data-index="1"><text>我的用车卷</text><text>0张></text></view>
+  <view class='mystyle  ' bindtap='explain' data-index="2"><text>我的押金</text><text><text class='textcolor'>99元，押金退款</text>></text></view>
+  <view class='mystyle  temp-three' bindtap='explain' data-index="3"><text>关于ufo</text><text>></text></view>
+
+</view>

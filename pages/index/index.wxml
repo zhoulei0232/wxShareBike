@@ -1,0 +1,3 @@
+<!--pages/index/index.wxml-->
+<map id="ofo-map" scale="16"  longitude="{{longitude}}" latitude="{{latitude}}"  show-location  controls="{{controls}}" polyline="{{polyline}}" markers="{{markers}}" bindcontroltap="bindcontroltap" bindmarkertap='bindmarkertap'>
+</map>

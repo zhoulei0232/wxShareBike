@@ -1,0 +1,24 @@
+/* pages/recharge/recharge.wxss */
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
+}
+.container .text{
+  font-size: 36rpx;
+  padding: 40rpx;
+}
+.inp{
+  padding:30rpx 40rpx;
+}
+.inp input{
+  text-align: center;
+  height: 100rpx;
+  background-color: #fff;
+  font-size: 50rpx;
+}
+
+.btn button{
+  background-color: #A3D900;
+ 
+}

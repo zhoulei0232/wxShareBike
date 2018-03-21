@@ -1,0 +1,40 @@
+<!--pages/warn/warn.wxml-->
+<view class='container'>
+  <view class='warntitle'><text>请选择故障类型</text></view>
+  <view class='warntype'>
+    <checkbox-group class='warnchoose' bindchange="warntypes">
+         <block wx:for="{{warntype}}" wx:key="warn">
+          <view class='warnbox'>
+            <checkbox  checked='{{item.flag}}' value='{{item.value}}'>{{item.value}}</checkbox>
+          </view>
+            
+          </block>
+          
+    </checkbox-group>
+   
+  </view>
+  <view class='pictitle'>
+     <text >拍摄单车周围环境，方便维修师傅找车</text>
+  </view>
+  <view class='picwrap'>
+      <block wx:for="{{picurls}}" wx:key="pic">
+      <view class='pic'> <image src='{{item}}' ><icon type='cancel' bindtap='closepic' data-index="{{index}}"></icon></image>
+     
+      </view>
+
+    </block>
+        
+     <view class='piccontainer' bindtap='addpic'><text>相册/照片</text></view>
+   
+  </view>
+ 
+  <view class='inp'>
+    <view class='inp-top'></view>
+      <input placeholder="车牌号" bindinput='putbikenumber'></input>
+      <input placeholder="备注" bindinput='putmessage'></input>
+    
+  </view>
+  <view class='btn'>
+    <button bindtap='submit' style='background-color:{{btncolor}}'>提交</button>
+  </view>
+</view>
